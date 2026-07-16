@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@font-face {
+  font-family: 'Altone';
+  src: url('./assets/fonts/Altone/Altone Trial-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Altone';
+  src: url('./assets/fonts/Altone/Altone Trial-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Altone';
+  src: url('./assets/fonts/Altone/Altone Trial-Oblique.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Altone';
+  src: url('./assets/fonts/Altone/Altone Trial-BoldOblique.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  src: url('./assets/fonts/Kaushan/KaushanScript-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Anton';
+  src: url('./assets/fonts/Anton/Anton-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-altone: 'Altone', sans-serif;
+  --font-anton: 'Anton', sans-serif;
+  --font-dancing: 'Dancing Script', cursive;
+  --font-kaushan: 'Kaushan Script', cursive;
+  --color-gold: #c9a84c;
+  --color-teal: #0d3b38;
+  --color-dark: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-altone);
+  background-color: var(--color-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Slick Slider Custom Styles */
+.slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+.slick-slide {
+  height: auto;
+}
+
+.slick-slide>div {
+  height: 100%;
+}
+
+/* Draggable cursor for slick slider */
+.slick-slider {
+  cursor: grab;
+}
+
+.slick-slider:active {
+  cursor: grabbing;
+}
+
+/* Hide default slick arrows */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}

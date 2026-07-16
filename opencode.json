@@ -1,0 +1,10 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+        "figma": {
+            "type": "remote",
+            "url": "https://www.figma.com/design/VjlJh4qjy96JVxfhyeRdFA/AG_AboutPage?node-id=0-1&p=f&t=ABwQRxMAhPX7jvt8-0",
+            "enabled": true
+        }
+    }
+}
